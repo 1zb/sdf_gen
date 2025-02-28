@@ -136,6 +136,9 @@ np.savez(
 )
 ```
 
+## :fork_and_knife: Data Split
+The data splits in my projects can be found here [ShapeNet](shapenet_split).
+
 ## :phone: FAQ
 ### How long does it take?
 For a single mesh, it approximately takes less than 10 seconds. It largely depends on the number of triangles in the mesh.
