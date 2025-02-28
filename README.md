@@ -116,10 +116,10 @@ The package `mesh2sdf` is adapted from [DualSDF](https://github.com/zekunhao1995
 import mesh2sdf
 
 vol_points = torch.from_numpy(vol_points).float().cuda()
-vol_sdf = mesh2sdf.mesh2sdf_gpu(vol_points, mesh_t)[0].cpu().numpy()
+vol_sdf = mesh2sdf.mesh2sdf_gpu(vol_points, mesh)[0].cpu().numpy()
 
 near_points = torch.from_numpy(near_points).float().cuda()
-near_sdf = mesh2sdf.mesh2sdf_gpu(near_points, mesh_t)[0].cpu().numpy()
+near_sdf = mesh2sdf.mesh2sdf_gpu(near_points, mesh)[0].cpu().numpy()
 ```
 
 ### Save data
