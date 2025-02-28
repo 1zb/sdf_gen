@@ -136,6 +136,10 @@ np.savez(
 )
 ```
 
+## :e-mail: Contact
+
+Send me an email (biao.zhang@kaust.edu.sa or biao.zhang.ai@outlook.com) if you have further questions.
+
 ## :blue_book: Citation
 
 If you use the code in your projects, consider citing the related papers,
