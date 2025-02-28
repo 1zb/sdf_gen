@@ -136,6 +136,16 @@ np.savez(
 )
 ```
 
+## :phone: FAQ
+### How long does it take?
+For a single mesh, it approximately takes less than 10 seconds. It largely depends on the number of triangles in the mesh.
+### How do I get a watertight mesh?
+The method does not explicitly output a watertight mesh. You can apply marching cubes to the signed distances (on a grid).
+### How does the SDF calculation work?
+The calculation method is based on [ray stabbing](https://ieeexplore.ieee.org/document/1196006).
+## How many points do I need to traing 3D generative models?
+The larger the better. The numbers shown in this post are working well on ShapeNet and Objaverse.
+
 ## :e-mail: Contact
 
 Send me an email (biao.zhang@kaust.edu.sa or biao.zhang.ai@outlook.com) if you have further questions.
