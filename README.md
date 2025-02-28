@@ -1,7 +1,7 @@
 
 # How to process SDF data for 3D generative models
 
-This is simplest process I found out for SDF data processing, which is a necessary step for 3D generative models. It does not need explicit watertight conversion. The SDF package is adapted from [DualSDF](https://github.com/zekunhao1995/DualSDF).
+This is simplest process I found out for SDF data processing, which is a necessary step for 3D generative models. It does not need explicit watertight conversion. My projects [3DILG](https://github.com/1zb/3DILG), [3DShape2VecSet](https://github.com/1zb/3DShape2VecSet), [Functional Diffusion](https://1zb.github.io/functional-diffusion/), and [LaGeM](https://1zb.github.io/LaGeM) are based on the code.
 
 ## :earth_asia: Environment Setup
 You can skip some steps if you already have installed some packages.
@@ -111,7 +111,7 @@ v = torch.from_numpy(v).float().cuda()
 f = torch.from_numpy(f).cuda()
 mesh = v[f]
 ```
-
+The package `mesh2sdf` is adapted from [DualSDF](https://github.com/zekunhao1995/DualSDF).
 ```python
 import mesh2sdf
 
