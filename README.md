@@ -60,7 +60,7 @@ I use box normalization in [3DILG](https://github.com/1zb/3DILG), [3DShape2VecSe
 
 ## :hammer: Processing
 
-In this section, we will process the meshes. There are multiple type of points, including,
+In this section, we will process the meshes (also see the [watertight version](https://github.com/1zb/sdf_gen/tree/master/preprocess)). There are multiple type of points, including,
 
 - Surface points: sampled on the mesh surfaces.
 - Labeled points: sampled within the bounding volume.
